@@ -1,0 +1,10 @@
+service: "service-bento.py:srvc"
+labels:
+  owner: ivan-d
+  project: week7
+include:
+- "*.py"
+python:
+    packages:  # Additional pip packages required by the service
+    - scikit-learn
+    - sklearn
