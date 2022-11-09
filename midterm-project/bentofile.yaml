@@ -1,0 +1,12 @@
+service: "service.py:srvc"
+labels:
+  owner: ivan-dmitrovich
+  project: ins-premium-prediction
+include:
+- "*.py"
+python:
+    packages:  # Additional pip packages required by the service
+    - scikit-learn == 1.1.1
+    - numpy == 1.21.5
+    - pydantic == 1.10.2
+    - xgboost == 1.6.2
