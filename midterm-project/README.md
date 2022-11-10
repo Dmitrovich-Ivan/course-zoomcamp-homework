@@ -12,7 +12,7 @@
    - `height` : height in centimeters
    - `historyofcancerinfamily` : binary 0/1 variable
    - `knownallergies` : binary 0/1 variable
-   - `numberofmajorsurgeries` : represents number of surgeries 
+   - `numberofmajorsurgeries` : represents a number of surgeries 
    - `weight` : weight in kilograms
    
    The premium price is in inr(₹) currency and shows annual amounts. 
