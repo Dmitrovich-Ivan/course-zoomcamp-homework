@@ -4,8 +4,8 @@
 ### DATA: 
    The dataset can be downloaded [here](https://www.kaggle.com/datasets/tejashvi14/medical-insurance-premium-prediction).
    It contains health related parameters of the customers:
-   - `age` : age in years;
-   - `anychronicdiseases` : binary variable, takes the values 0 or 1
+   - `age` : age in years
+   - `anychronicdiseases` : binary variable, takes 0 or 1 values
    - `anytransplants` : binary 0/1 variable
    - `bloodpressureproblems` : binary 0/1 variable
    - `diabetes` : binary 0/1 variable
